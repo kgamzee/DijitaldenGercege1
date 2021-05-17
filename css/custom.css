@@ -1,0 +1,63 @@
+.single-event-main-thumb img {
+  min-height: 250px;
+  max-height: 250px;
+}
+
+.single-event-main-thumb {
+  min-height: 250px;
+  max-height: 250px;
+  background-size: cover;
+}
+
+.post-thumb {
+  min-height: 250px;
+  max-height: 250px;
+  background-size: cover;
+}
+
+.inner-page-banner {
+  min-height: 300px;
+}
+
+.travellers {
+  margin-bottom: 75px;
+}
+
+.avatar {
+  height: 100px;
+  width: 100px;
+  border-radius: 50px;
+  background-size: cover;
+  margin-bottom: 20px;
+}
+
+#map {
+  width: 1050px;
+  height: 620px;
+  position: relative;
+  margin: auto;
+}
+#map svg {
+  position: relative;
+  top: -100px;
+  left: 0px;
+}
+svg > a {
+  cursor: pointer;
+  display: block;
+}
+
+#sehir {
+  font-size: 30px;
+  text-align: center;
+  margin-top: 25px;
+  color: #666;
+}
+
+.site-menu .active {
+  color: #ff4a52 !important;
+}
+
+.google-map-wrap-layout1 {
+  position: absolute !important;
+}

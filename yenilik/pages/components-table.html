@@ -1,0 +1,527 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta content="width=device-width, initial-scale=1, maximum-scale=1, shrink-to-fit=no" name="viewport">
+  <title>BEG</title>
+
+  <!-- General CSS Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+
+  <!-- CSS Libraries -->
+
+  <!-- Template CSS -->
+  <link rel="stylesheet" href="../assets/css/style.css">
+  <link rel="stylesheet" href="../assets/css/components.css">
+</head>
+
+<body>
+  <div id="app">
+    <div class="main-wrapper">
+      <div class="navbar-bg"></div>
+      <nav class="navbar navbar-expand-lg main-navbar">
+        
+        <ul class="navbar-nav navbar-right">
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link nav-link-lg message-toggle beep"><i class="far fa-envelope"></i></a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right">
+              <div class="dropdown-header">Mesajlar
+                <div class="float-right">
+                  
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-message">
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle">
+                    <div class="is-online"></div>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Başak</b>
+                    <p>Selamm</p>
+                    <div class="time">10 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle">
+                    <div class="is-online"></div>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Başak</b>
+                    <p>Selamm</p>
+                    <div class="time">10 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-avatar">
+                    <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle">
+                    <div class="is-online"></div>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Başak</b>
+                    <p>Selamm</p>
+                    <div class="time">10 Hours Ago</div>
+                  </div>
+                </a>
+              <div class="dropdown-footer text-center">
+                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown dropdown-list-toggle"><a href="#" data-toggle="dropdown" class="nav-link notification-toggle nav-link-lg beep"><i class="far fa-bell"></i></a>
+            <div class="dropdown-menu dropdown-list dropdown-menu-right">
+              <div class="dropdown-header">Notifications
+                <div class="float-right">
+                  <a href="#">Mark All As Read</a>
+                </div>
+              </div>
+              <div class="dropdown-list-content dropdown-list-icons">
+                <a href="#" class="dropdown-item dropdown-item-unread">
+                  <div class="dropdown-item-icon bg-primary text-white">
+                    <i class="fas fa-code"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    Template update is available now!
+                    <div class="time text-primary">2 Min Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white">
+                    <i class="far fa-user"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>You</b> and <b>Dedik Sugiharto</b> are now friends
+                    <div class="time">10 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-success text-white">
+                    <i class="fas fa-check"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    <b>Kusnaedi</b> has moved task <b>Fix bug header</b> to <b>Done</b>
+                    <div class="time">12 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-danger text-white">
+                    <i class="fas fa-exclamation-triangle"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    Low disk space. Let's clean it!
+                    <div class="time">17 Hours Ago</div>
+                  </div>
+                </a>
+                <a href="#" class="dropdown-item">
+                  <div class="dropdown-item-icon bg-info text-white">
+                    <i class="fas fa-bell"></i>
+                  </div>
+                  <div class="dropdown-item-desc">
+                    Welcome to Stisla template!
+                    <div class="time">Yesterday</div>
+                  </div>
+                </a>
+              </div>
+              <div class="dropdown-footer text-center">
+                <a href="#">View All <i class="fas fa-chevron-right"></i></a>
+              </div>
+            </div>
+          </li>
+          <li class="dropdown"><a href="#" data-toggle="dropdown" class="nav-link dropdown-toggle nav-link-lg nav-link-user">
+            <img alt="image" src="../assets/img/avatar/avatar-1.png" class="rounded-circle mr-1">
+            <div class="d-sm-none d-lg-inline-block">Hoşgeldin, Gamze!</div></a>
+            <div class="dropdown-menu dropdown-menu-right">
+              <div class="dropdown-title">Logged in 5 min ago</div>
+              <a href="features-profile.html" class="dropdown-item has-icon">
+                <i class="far fa-user"></i> Profil
+              </a>
+              <a href="features-activities.html" class="dropdown-item has-icon">
+                <i class="fas fa-bolt"></i> Hareketler
+              </a>
+              <a href="features-settings.html" class="dropdown-item has-icon">
+                <i class="fas fa-cog"></i> 
+              </a>
+              <div class="dropdown-divider"></div>
+              <a href="#" class="dropdown-item has-icon text-danger">
+                <i class="fas fa-sign-out-alt"></i> Çıkış
+              </a>
+            </div>
+          </li>
+        </ul>
+      </nav>
+      <div class="main-sidebar">
+        <aside id="sidebar-wrapper">
+          <div class="sidebar-brand">
+            <a href="index-0.html">BEG</a>
+          </div>
+        
+          <ul class="sidebar-menu">
+              <li class="menu-header">Admin</li>
+              <li class="nav-item dropdown active">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-fire"></i><span>Panel</span></a>
+                <ul class="dropdown-menu">
+                  <li class="active"><a class="nav-link" href="index-0.html">Panel</a></li>
+                
+               </ul>
+              </li>
+            
+              
+              
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-th-large"></i> <span>Kontrol</span></a>
+                <ul class="dropdown-menu">
+                  
+                  <li><a class="nav-link" href="components-table.html">Kontrol</a></li>
+  
+                 
+                </ul>
+              </li>
+             
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-map-marker-alt"></i> <span>Rotalar</span></a>
+                <ul class="dropdown-menu">
+                  <li><a href="gmaps-advanced-route.html">Rota</a></li>
+                
+                </ul>
+              </li>
+             
+             
+             
+              
+              <li class="nav-item dropdown">
+                <a href="#" class="nav-link has-dropdown"><i class="fas fa-bicycle"></i> <span>Hareketler</span></a>
+                <ul class="dropdown-menu">
+                  <li><a class="nav-link" href="features-activities.html">Hareketler</a></li>
+                  
+                  <li><a class="nav-link" href="features-posts.html">Posts</a></li>
+                  
+                  
+                </ul>
+              </li>
+              
+              
+            </ul>
+
+            
+        </aside>
+      </div>
+
+      <!-- Main Content -->
+      <div class="main-content">
+        <section class="section">
+          <div class="section-header">
+            <h1>Kontrol</h1>
+
+          </div>
+
+          <div class="section-body">
+            <div class="row">
+              <div class="col-12 col-md-12 col-lg-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Onay Bekleyen Yazılar</h4>
+                  </div>
+                  <div class="card-body">
+                    <div class="table-responsive">
+                      <table class="table table-bordered table-md">
+                        <tr>
+                         
+                          <th>Yazar</th>
+                          <th>Yayın Tarihi</th>
+                          <th>Durum</th>
+                          <th>Detay</th>
+                        </tr>
+                        <tr>
+                         
+                          <td>Başak Karaca</td>
+                          <td>11-10-2019</td>
+                          <td>
+                            <a href="#" class="btn btn-success">Onayla</a>
+                            <a href="#" class="btn  btn-danger">Sil</a>
+                            </td>
+                          <td><a href="#" class="btn btn-secondary">Detay</a></td>
+                        </tr>
+                        <tr>
+                         
+                          <td>Ömer Arı</td>
+                          <td>10-12-2019</td>
+                          <td>
+                            <a href="#" class="btn btn-success">Onayla</a>
+                            <a href="#" class="btn  btn-danger">Sil</a>
+                            </td>
+                          <td><a href="#" class="btn btn-secondary">Detay</a></td>
+                        </tr>
+                        <tr>
+                          
+                          <td>Elif Özer</td>
+                          <td>22-12-2019</td>
+                          <td>
+                            <a href="#" class="btn btn-success">Onayla</a>
+                            <a href="#" class="btn  btn-danger">Sil</a>
+                            </td>
+                          <td><a href="#" class="btn btn-secondary">Detay</a></td>
+                        </tr>
+                        <tr>
+                         
+                          <td>Ecem Demirel</td>
+                          <td>08-01-2020</td>
+                          <td>
+                            <a href="#" class="btn btn-success">Onayla</a>
+                            <a href="#" class="btn  btn-danger">Sil</a>
+                            </td>
+                          <td><a href="#" class="btn btn-secondary">Detay</a></td>
+                        </tr>
+                      </table>
+                    </div>
+                  </div>
+                  <div class="card-footer text-right">
+                    <nav class="d-inline-block">
+                      <ul class="pagination mb-0">
+                        <li class="page-item disabled">
+                          <a class="page-link" href="#" tabindex="-1"><i class="fas fa-chevron-left"></i></a>
+                        </li>
+                        <li class="page-item active"><a class="page-link" href="#">1 <span class="sr-only">(current)</span></a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#">2</a>
+                        </li>
+                        <li class="page-item"><a class="page-link" href="#">3</a></li>
+                        <li class="page-item">
+                          <a class="page-link" href="#"><i class="fas fa-chevron-right"></i></a>
+                        </li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-12 col-lg-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Onay Bekleyen Yorumlar</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled list-unstyled-border list-unstyled-noborder">
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="70" src="../assets/img/avatar/avatar-1.png">
+                        <div class="media-body">
+                          <div class="media-right"><div class="text-primary">Approved</div></div>
+                          <div class="media-title mb-1">Ömer Arı</div>
+                          <div class="text-time">Dün</div>
+                          <div class="media-description text-muted">Emeğinize sağlık. Çok güzel bir yazı olmuş</div>
+                          <div class="media-links">
+                            <a href="#">Yayınla</a>
+                            <div class="bullet"></div>
+                            <a href="#" class="text-danger">Sil</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="70" src="../assets/img/avatar/avatar-2.png">
+                        <div class="media-body">
+                          <div class="media-right"><div class="text-warning">Pending</div></div>
+                          <div class="media-title mb-1">Elif Özer</div>
+                          <div class="text-time">Dün</div>
+                          <div class="media-description text-muted">Kısa ve net olmuş size katılıyorum.Rotamı oluşturmama çok yardımcı oldu./div>
+                          <div class="media-links">
+                            <div class="text-warning"></div>
+                            <a href="#">Yayınla</a>
+                            <div class="bullet"></div>
+                            <a href="#" class="text-danger">Sil</a>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="70" src="../assets/img/avatar/avatar-3.png">
+                        <div class="media-body">
+                          <div class="media-right"><div class="text-primary">Approved</div></div>
+                          <div class="media-title mb-1">Başak Karaca</div>
+                          <div class="text-time">Dün</div>
+                          <div class="media-description text-muted">Kısa ve net olmuş size katılıyorum.Rotamı oluşturmama çok yardımcı oldu.</div>
+                          <div class="media-links">
+                            <a href="#">View</a>
+                            <div class="bullet"></div>
+                            <a href="#">Yayınla</a>
+                            <div class="bullet"></div>
+                            <a href="#" class="text-danger">Sil</a>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-12 col-sm-12 col-lg-12">
+                <div class="card">
+                  <div class="card-header">
+                    <h4>Kullanıcı Profili</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled user-progress list-unstyled-border list-unstyled-noborder">
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-1.png">
+                        <div class="media-body">
+                          <div class="media-title">Başak Karaca</div>
+                          <div class="text-job text-muted">Yazılımcı</div>
+                        </div>
+                        <div class="media-progressbar">
+                          <div class="progress-text">30%</div>
+                          <div class="progress" data-height="6">
+                            <div class="progress-bar bg-primary" data-width="30%"></div>
+                          </div>
+                        </div>
+                        <div class="media-cta">
+                          <a href="map-blog/profile.html" class="btn btn-outline-primary">Detay</a>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-5.png">
+                        <div class="media-body">
+                          <div class="media-title">Elif Özer</div>
+                          <div class="text-job text-muted">Eczacı</div>
+                        </div>
+                        <div class="media-progressbar">
+                          <div class="progress-text">67%</div>
+                          <div class="progress" data-height="6">
+                            <div class="progress-bar bg-primary" data-width="67%"></div>
+                          </div>
+                        </div>
+                        <div class="media-cta">
+                          <a href="profile.html" class="btn btn-outline-primary">Detay</a>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png">
+                        <div class="media-body">
+                          <div class="media-title">Ömer Arı</div>
+                          <div class="text-job text-muted">Makine Mühendisi</div>
+                        </div>
+                        <div class="media-progressbar">
+                          <div class="progress-text">45%</div>
+                          <div class="progress" data-height="6">
+                            <div class="progress-bar bg-primary" data-width="45%"></div>
+                          </div>
+                        </div>
+                        <div class="media-cta">
+                          <a href="profile.html" class="btn btn-outline-primary">Detay</a>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+
+                <div class="card mt-4">
+                  <div class="card-header">
+                    <h4>Kullanıcı Detayları</h4>
+                  </div>
+                  <div class="card-body">
+                    <ul class="list-unstyled user-details list-unstyled-border list-unstyled-noborder">
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-1.png">
+                        <div class="media-body">
+                          <div class="media-title">Ömer Arı</div>
+                          <div class="text-job text-muted">Makine Mühendisi</div>
+                        </div>
+                        <div class="media-items">
+                          <div class="media-item">
+                            <div class="media-value">12</div>
+                            <div class="media-label">Yazı</div>
+                          </div>
+                          <div class="media-item">
+                            <div class="media-value">10K</div>
+                            <div class="media-label">Takipçi</div>
+                          </div>
+                          <div class="media-item">
+                            <div class="media-value">2,312</div>
+                            <div class="media-label">Takip Edilen</div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-5.png">
+                        <div class="media-body">
+                          <div class="media-title">Başak Karaca</div>
+                          <div class="text-job text-muted">Yazılımcı</div>
+                        </div>
+                        <div class="media-items">
+                          <div class="media-item">
+                            <div class="media-value">14</div>
+                            <div class="media-label">Yazı</div>
+                          </div>
+                          <div class="media-item">
+                            <div class="media-value">43K</div>
+                            <div class="media-label">Takipçi</div>
+                          </div>
+                          <div class="media-item">
+                            <div class="media-value">1,290</div>
+                            <div class="media-label">Takip Edilen</div>
+                          </div>
+                        </div>
+                      </li>
+                      <li class="media">
+                        <img alt="image" class="mr-3 rounded-circle" width="50" src="../assets/img/avatar/avatar-4.png">
+                        <div class="media-body">
+                          <div class="media-title">Elif Özer</div>
+                          <div class="text-job text-muted">Eczacı</div>
+                        </div>
+                        <div class="media-items">
+                          <div class="media-item">
+                            <div class="media-value">1,821</div>
+                            <div class="media-label">Yazı</div>
+                          </div>
+                          <div class="media-item">
+                            <div class="media-value">14K</div>
+                            <div class="media-label">Takiğçi</div>
+                          </div>
+                          <div class="media-item">
+                            <div class="media-value">2,891</div>
+                            <div class="media-label">Takip Edilen</div>
+                          </div>
+                        </div>
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+      </div>
+      <footer class="main-footer">
+        <div class="container">
+          2019 BEG © Bu sitenin tüm hakları saklıdır ve bize aittir.
+         </div>
+        <div class="footer-right">
+          2.3.0
+        </div>
+      </footer>
+    </div>
+  </div>
+
+  <!-- General JS Scripts -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.nicescroll/3.7.6/jquery.nicescroll.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+  <script src="../assets/js/stisla.js"></script>
+
+  <!-- JS Libraies -->
+  <script src="../node_modules/jquery-ui-dist/jquery-ui.min.js"></script>
+
+  <!-- Template JS File -->
+  <script src="../assets/js/scripts.js"></script>
+  <script src="../assets/js/custom.js"></script>
+
+  <!-- Page Specific JS File -->
+  <script src="../assets/js/page/components-table.js"></script>
+</body>
+</html>
