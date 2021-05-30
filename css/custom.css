@@ -12,7 +12,7 @@
 .post-thumb {
   min-height: 250px;
   max-height: 250px;
-  background-size: cover;
+  background-size: contain;
 }
 
 .inner-page-banner {
