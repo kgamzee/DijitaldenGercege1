@@ -61,3 +61,21 @@ svg > a {
 .google-map-wrap-layout1 {
   position: absolute !important;
 }
+
+@media only screen and (max-width: 991px) {
+  .header-main {
+    background: rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    height: auto;
+    padding: 5px 0;
+  }
+}
+
+.footer-top-wrap{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.footer-box{
+  margin-bottom: 0;
+}
