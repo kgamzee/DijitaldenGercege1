@@ -87,6 +87,9 @@ body {
   text-rendering: optimizeLegibility;
   color: #646464;
 }
+ul.bir {
+  list-style-type: square;
+}
 p {
   margin: 0 0 20px 0;
 }
